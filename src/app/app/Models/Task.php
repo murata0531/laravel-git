@@ -12,9 +12,6 @@ class Task extends Model
     protected $guarded = [];
 
     public function statuses() {
-        return $this->belongsTo('App\Models\Status');
+        return $this->belongsTo('App\Models\Status', 'status_id');
     }
 }
-
-
-
