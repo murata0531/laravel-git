@@ -1,4 +1,4 @@
-# Laravel-CI
+# Laravel + Git勉強会リポジトリ
 
 # 環境
 
